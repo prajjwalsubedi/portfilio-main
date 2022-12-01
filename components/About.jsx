@@ -7,7 +7,7 @@ export default function About() {
             <div className="row">
                 <div className="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div className="left-image">
-                        <img src='../assets/images/services-left-image.png' alt=""/>
+                        <img src={'../assets/images/services-left-image.png'} alt=""/>
                     </div>
                 </div>
                 <div className="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
