@@ -1,4 +1,4 @@
-import portfilio_image from "./assets/images/portfolio-image.png";
+import portfilio_image from "../assets/images/portfolio-image.png";
 import React from 'react';
 
 export default function Portfilio() {
