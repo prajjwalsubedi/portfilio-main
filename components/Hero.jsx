@@ -1,3 +1,4 @@
+import hero_image from '../assets/images/banner-right-image.png';
 import React from 'react';
 
 export default function Hero() {
@@ -24,7 +25,7 @@ export default function Hero() {
 
                             <div className="col-lg-6">
                                 <div className="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                                    <img src={'../assets/images/banner-right-image.png'} alt="team meeting" />
+                                    <img src={hero_image} alt="team meeting" />
                                 </div>
                             </div>
                         </div>

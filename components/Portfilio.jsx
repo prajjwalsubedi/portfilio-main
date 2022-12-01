@@ -1,3 +1,4 @@
+import portfilio_image from "./assets/images/portfolio-image.png";
 import React from 'react';
 
 export default function Portfilio() {
@@ -22,7 +23,7 @@ export default function Portfilio() {
                                     <p>My own Portfilio Designed on React and Hosted in Netlify.</p>
                                 </div>
                             <div className="showed-content">
-                                <img src={"./assets/images/portfolio-image.png"} alt="" />
+                                <img src={portfilio_image} alt="" />
                             </div>
                             </div>
                         </a>

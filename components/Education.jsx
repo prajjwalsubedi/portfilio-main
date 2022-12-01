@@ -1,3 +1,4 @@
+import eduaction_image from eduaction_image;
 import React from 'react';
 
 export default function Education() {
@@ -7,7 +8,7 @@ export default function Education() {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                            <img src={"./assets/images/about-left-image.png"} alt="person graphic"/>
+                            <img src={eduaction_image} alt="person graphic"/>
                         </div>
                     </div>
                     <div className="col-lg-8 align-self-center">
@@ -17,7 +18,7 @@ export default function Education() {
                             <div className="col-lg-6">
                                 <div className="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                                 <div className="icon">
-                                    <img src={'./assets/images/service-icon-01.png'} alt="reporting"/>
+                                    <img src={eduaction_image} alt="reporting"/>
                                 </div>
                                 <div className="right-text">
                                     <h4>100 days of Python (2022)</h4>
@@ -29,7 +30,7 @@ export default function Education() {
                             <div className="col-lg-6">
                                 <div className="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                                 <div className="icon">
-                                    <img src={'./assets/images/service-icon-01.png'} alt="reporting"/>
+                                    <img src={eduaction_image} alt="reporting"/>
                                 </div>
                                 <div className="right-text">
                                     <h4>Full Stack Web Developer Bootcamp (2021)</h4>
@@ -42,7 +43,7 @@ export default function Education() {
                             <div className="col-lg-6">
                                 <div className="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                                 <div className="icon">
-                                    <img src={'./assets/images/service-icon-01.png'} alt="reporting"/>
+                                    <img src={eduaction_image} alt="reporting"/>
                                 </div>
                                 <div className="right-text">
                                     <h4>Bachelor of Business (2020)</h4>
@@ -55,7 +56,7 @@ export default function Education() {
                             <div className="col-lg-6">
                                 <div className="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                                 <div className="icon">
-                                    <img src={'./assets/images/service-icon-01.png'} alt="reporting"/>
+                                    <img src={eduaction_image} alt="reporting"/>
                                 </div>
                                 <div className="right-text">
                                     <h4>Diploma of Accounting (2018)</h4>

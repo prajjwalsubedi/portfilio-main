@@ -1,3 +1,4 @@
+import contact_image from '../assets/images/contact-decoration.png';
 import React from 'react';
 
 export default function Contact() {
@@ -47,7 +48,7 @@ export default function Contact() {
                             </div>
                             </div>
                             <div className="contact-dec">
-                                <img src={'../assets/images/contact-decoration.png'} alt="" />
+                                <img src={contact_image} alt="" />
                             </div>
                         </form>
                     </div>
