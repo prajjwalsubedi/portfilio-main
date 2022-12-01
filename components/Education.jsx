@@ -1,4 +1,5 @@
 import eduaction_image from '../assets/images/service-icon-01.png';
+import eduaction_image_left from "../assets/images/about-left-image.png";
 import React from 'react';
 
 export default function Education() {
@@ -8,7 +9,7 @@ export default function Education() {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                            <img src={eduaction_image} alt="person graphic"/>
+                            <img src={eduaction_image_left} alt="person graphic"/>
                         </div>
                     </div>
                     <div className="col-lg-8 align-self-center">
