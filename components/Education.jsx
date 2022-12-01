@@ -1,4 +1,4 @@
-import eduaction_image from eduaction_image;
+import eduaction_image from '../assets/images/service-icon-01.png';
 import React from 'react';
 
 export default function Education() {
