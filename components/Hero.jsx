@@ -1,4 +1,4 @@
-import hero_image from '../assets/images/banner-right-image.png';
+import hero_image from '../assets/images/Prajjwal_Subedi.png';
 import React from 'react';
 
 export default function Hero() {
