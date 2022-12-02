@@ -621,6 +621,10 @@ header
     box-shadow: none;
     text-align: center;
   }
+  .container {
+    padding-right: var(0, 0rem);
+    padding-left: var(0, 0rem);
+  }
   .header-area .container {
     padding: 0px;
   }
