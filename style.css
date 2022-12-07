@@ -281,7 +281,7 @@ header
   transition: all 0.3s ease 0s;
 }
 
-.header-area .main-nav .logo h4 {
+.header-area .main-nav .logo h1 {
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
@@ -294,11 +294,11 @@ header
     transition: all 0.3s ease 0s;
 }
 
-.logo h4 span {
+.logo h1 span {
   color: var(--main);
 }
 
-.background-header .main-nav .logo h4 {
+.background-header .main-nav .logo h1 {
   line-height: 80px;
 }
 

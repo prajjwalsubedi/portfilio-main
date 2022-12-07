@@ -8,7 +8,7 @@ export default function Header() {
                     <div className="col-12">
                         <nav className="main-nav">
                             <a href="/#" className="logo">
-                            <h4>Prajjwal<span style={{fontSize:"34px"}}>.</span></h4>
+                            <h1>Prajjwal<span style={{fontSize:"34px"}}>.</span></h1>
                             </a>
                             <ul className="nav">
                                 <li className="scroll-to-section"><a href="/#top" className="active">Home</a></li>
