@@ -25,7 +25,7 @@ export default function Hero() {
 
                             <div className="col-lg-6">
                                 <div className="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                                    <img src={hero_image} alt="team meeting" />
+                                    <img src={hero_image} alt="Prajjwal Subedi" />
                                 </div>
                             </div>
                         </div>

@@ -23,7 +23,7 @@ export default function Portfilio() {
                                     <p>My own Portfilio Designed on React and Hosted in Netlify.</p>
                                 </div>
                             <div className="showed-content">
-                                <img src={portfilio_image} alt="" />
+                                <img src={portfilio_image} alt="Prajjwal Portfilio" />
                             </div>
                             </div>
                         </a>

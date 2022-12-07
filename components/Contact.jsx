@@ -48,7 +48,7 @@ export default function Contact() {
                             </div>
                             </div>
                             <div className="contact-dec">
-                                <img src={contact_image} alt="" />
+                                <img src={contact_image} alt="Prajjwal Contact Image" />
                             </div>
                         </form>
                     </div>

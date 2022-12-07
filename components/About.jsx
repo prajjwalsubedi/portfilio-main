@@ -1,5 +1,5 @@
 import React from 'react';
-import anout_image from '../assets/images/services-left-image.png'
+import about_image from '../assets/images/services-left-image.png'
 
 export default function About() {
     return (
@@ -8,7 +8,7 @@ export default function About() {
             <div className="row">
                 <div className="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div className="left-image">
-                        <img src={anout_image} alt=""/>
+                        <img src={about_image} alt="Prajjwal about Image"/>
                     </div>
                 </div>
                 <div className="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
