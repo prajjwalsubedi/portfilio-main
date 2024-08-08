@@ -2,30 +2,45 @@ import React from 'react';
 
 export default function Header() {
     return (
-        <header className="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-            <div className="container">
-                <div className="row">
-                    <div className="col-12">
-                        <nav className="main-nav">
-                            <a href="/#" className="logo">
-                            <h1>Prajjwal<span style={{fontSize:"34px"}}>.</span></h1>
-                            </a>
-                            <ul className="nav">
-                                <li className="scroll-to-section"><a href="/#top" className="active">Home</a></li>
-                                <li className="scroll-to-section"><a href="/#education">Education</a></li>
-                                <li className="scroll-to-section"><a href="/#about">About me</a></li>
-                                <li className="scroll-to-section"><a href="/#portfolio">Portfolio</a></li>
-                                <li className="scroll-to-section"><a href="/#blog">Blog</a></li> 
-                                <li className="scroll-to-section"><a href="/#contact">Message Us</a></li> 
-                                <li className="scroll-to-section"><div className="main-red-button"><a href="/#contact">Contact Now</a></div></li> 
-                            </ul>        
-                            <a className='menu-trigger'>
-                                <span>Menu</span>
-                            </a>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-      </header>
-    );
+
+// <!-- Page navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/imgs/logo.svg" alt=""/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#service">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testmonial">Testmonial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="- btn btn-primary rounded ml-4" href="components.html">Copmonents</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav> 
+);
 }
